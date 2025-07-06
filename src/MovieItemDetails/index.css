@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.movie-item-details-main-container{
+  min-height:100vh;
+  background-color: #121212;
+}
+.movie-item-details-container{
+  display: flex;
+  flex-direction: column;
+  height:80vh;
+  width:100vw;
+  object-fit: cover;
+}
+.movie-item-details-shadow{background-image:linear-gradient(to bottom,#00000000,#1818188B);
+  height:100px;
+  margin-top:25px;
+}
+
+
+.each-movie-section-icon-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  min-height:5vh;
+  background-color: #131313;
+  padding-top:50px;
+}
+
+.each-movie-last-card{
+  background-color: #131313;
+  padding-bottom:30px;
+}
+
+.popular-page-p1{
+  color:white;
+  font-size:17px;
+  text-align: center;
+  margin-left:675px;
+}
+
+.each-movie-page-p1{
+  color:white;
+  font-size:17px;
+  margin-left:675px;
+}

@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.account-container{
+  background-color: #131313;
+  height:85px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.account-h1{
+  color:#d92323;
+  font-size:35px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing:2px;
+  padding-right:20px;
+}
+
+.account-card1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-p1{
+  color:white;
+  font-size:16px;
+  text-decoration: none;
+  cursor:default;
+  align-self: center;
+  padding-right:20px;
+}
+.account-container2{
+  height:70vh;
+  background-color:white;
+  margin-bottom:5px;
+}
+
+.account-card{
+  padding-left:270px;
+ 
+}
+
+
+
+.account-container3{
+  height:17vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+  text-align: center;
+}
+.account-icons-card{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding-top:40px;
+}
+
+.account-p2{
+  color:white;
+  font-size:14px;
+  margin-top:15px;
+}
+
+.account-loader-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color:#131313;
+}

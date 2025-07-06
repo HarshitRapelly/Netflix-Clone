@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  scrollbar-width: none;   
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+
+.home-page-container{
+  min-height:100vh;
+  background-color: #121212;
+  width:100vw;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.home-page-container::-webkit-scrollbar {
+  display: none;
+}
+
+.home-page-image{
+  background-image: url('https://res.cloudinary.com/dgd7f5oj9/image/upload/v1751222344/Image_qapwt4.png');
+  height:600px;
+  width:1440px;
+  background-size: cover;
+}
+
+.home-page-shadow{
+  background-image:linear-gradient(to bottom,#00000000,#1818188B);
+  height:150px;
+  margin-top:90px;
+}
+
+.home-page-h1{
+  color:white;
+  font-weight:600;
+  font-size:45px;
+  margin-left:250px;
+  margin-top:60px;
+}
+.home-page-p1{
+  color:white;
+  font-size:17px;
+  margin-left:250px;
+  margin-top:10px;
+  width:380px;
+}
+
+.home-page-btn{
+  color:#171F46;
+  background-color:white;
+  border-radius:4px;
+  padding:20px 15px 23px 5px;
+  height:40px;
+  margin-left:250px;
+  margin-top:18px;
+  text-align: center;
+  font-weight: 500;
+  width:auto;
+}
+
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 24px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.next-arrow {
+    right: -35px;
+}
+
+.prev-arrow {
+    left: -35px;
+}
+
+.slider-movie-item {
+    padding: 10px;
+}
+
+.movie-poster:hover {
+    transform: scale(1.2);
+}
+
+.movie-poster {
+    width: 260px;
+    height:240px; 
+    border-radius:3px;
+    transition: transform 0.6s ease;
+}
+
+
+
+.home-section-icon-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  margin-top:50px;
+}
+
+.home-page-p2{
+  color:white;
+  font-size:17px;
+  text-align: right;
+  margin-left:675px;
+}
+
+.loader-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.home-page-p3{
+  color:white;
+  font-size:17px;
+  text-align: right;
+  margin-left:675px;
+  margin-bottom:30px;
+}
+
+.marginhome{
+  margin-bottom:30px;
+}
+
+.youtube-embed-container{
+  height:100vh;
+  width:100vw;
+}
